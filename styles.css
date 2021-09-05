@@ -1,0 +1,51 @@
+/* Styles.css for Tea Rooms */
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#headerArea {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    border-width: flex;
+}
+
+#topLogo {
+    align-items: flex-start;
+    padding-left: 10px;
+    height: 50px;
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#mission {
+    background-image: url("images/mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#missionText {
+    background-color: black;
+    width: 100%;
+    height: 125px;
+}
